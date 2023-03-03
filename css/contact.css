@@ -1,0 +1,101 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #13005A;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    width: 15em;
+    padding: 1em;
+    text-align: center;
+}
+
+header li:hover {
+    border-bottom: 0.3em solid aliceblue;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+section {
+    background-image: linear-gradient(to left, rgba(24, 24, 24, 0.5), rgba(126, 125, 125, 0)), url(../images/contact/background.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+h1, section p {
+    font-family: 'Gloock', sans-serif;
+    padding: 1em;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+span {
+    background-color: rgb(0, 51, 124, 0.3);
+    border-radius: 10%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 45%); */
+}
+
+
+form input {
+    border-style: solid aliceblue;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+label:not(.checkbox) {
+    display: inline-block;
+    width: 15%;
+    margin: 1% 0%;
+}
+
+form label {
+    font-family: 'Lato', sans-serif;
+    padding: 1em;
+    color: aliceblue;
+    width: 30%;
+}
+
+textarea, input:not(.checkbox, #sendButton) {
+    width: 50%;
+    height: 5%;
+    background-color: rgb(240, 248, 255, 0.3);
+}
+
+#sendButton {
+    color:black;
+    padding: 1em;
+    width: 20%;
+    background-color: aliceblue;
+    margin-bottom: 5%;
+}
+
+footer{
+    margin-top: 1%;
+    border-top: double rgb(3, 201, 136, 0.5);
+    border-bottom: double rgb(3, 201, 136, 0.5);
+    background-color: rgba(0, 51, 124);
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}

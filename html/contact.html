@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloock|Lato|Roboto">
+    </head>
+
+    <body>
+        <header>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./addContent.html">MORE CONTENT</a></li>
+                <li><a href="./aboutMe.html">ABOUT ME</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div class="gridBox information">
+                <h1><span> Let's get in touch! </span></h1>
+                <p><span> Please, complete the next fields and we will contact you </span></p>
+            </div>
+            
+            <div class="gridBox inputs">
+                <form action="../index.html" method="POST">
+                    <label for="idName">Enter your name</label>
+                    <input type="text" name="name" id="idName" placeholder="Will Johnson" required>
+                    <br>
+                    <label for="idEmail">Enter your email</label>
+                    <input type="email" name="email" id="idEmail" placeholder="your@email.com" required>
+                    <br>
+                    <label for="idPhone">Enter your phone number</label>
+                    <input type="tel" name="phone" id="idPhone" pattern="[0-9]{10}" required>
+                    <br>
+                    <label for="idCountry">Country</label>
+                    <input type="text" name="country" id="idCountry">
+                    <br>
+                    <label for="idCity">City</label>
+                    <input type="text" name="city" id="idCity">
+                    <br>
+                    <label>Why you contact us?</label> <br>
+                    <label for="idInformation" class="checkbox">Information</label>
+                    <input type="checkbox" value="information" name="contactReason" id="idInformation" class="checkbox">
+                    <label for="idJobVacancy" class="checkbox">Job vacancy</label>
+                    <input type="checkbox" value="jobVacancy" name="contactReason" id="idJobVacancy" class="checkbox">
+                    <label for="idPartnership" class="checkbox">Partnership</label>
+                    <input type="checkbox" value="partnership" name="contactReason" id="idPartnership" class="checkbox">
+                    <br>
+                    <br>
+                    <label for="textAdd" class="title">Complaints and suggestions</label>
+                    <textarea id="textAdd" name="boxComplaints" rows="5" cols="35" placeholder="Message">
+                    Message
+                    </textarea>
+                    <br>
+                    <!-- mensaje flotante de enviado correctamente -->
+                    <input id="sendButton" type="submit" value="send" >                     
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                Web design by Viviana Benítez, <br>
+                2023
+            </p>
+        </footer>
+    </body>
+</html>

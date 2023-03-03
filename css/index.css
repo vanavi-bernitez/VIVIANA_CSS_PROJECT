@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #13005A;
+    /* background-image: linear-gradient(to top,#efefef 0%,#a58dff  100%); */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);  */
+}
+
+header ul ul {
+    display: none;
+}
+
+header ul li:hover > ul {
+    display: block;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    width: 15em;
+    padding: 1em;
+    text-align: center;
+}
+
+header ul li:hover {
+    border-left: 0.2rem solid aliceblue;
+    font-weight: bold;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+header ul ul {
+    position: absolute;
+    background-color: #13005A;
+    list-style: none; 
+    left: 6%;
+}
+
+header ul ul li {
+    padding: 0.5em;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Gloock', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 230%;
+}
+
+.grid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 180%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgb(123, 123, 123);
+}
+
+.backgroundDarker h2 {
+    color: aliceblue;
+    text-shadow: 1px 1px 3px #00337C;
+}
+
+#sec6_news h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 180%;
+}
+
+.grid h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;  
+}
+
+table {
+    border-top: double #13005A;
+    border-bottom: double #13005A;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+thead th, tfoot th {
+    text-align: center;
+}
+
+tbody td:not(.country){
+    width: 10%;
+    text-align: center;
+}
+
+.country {
+    text-align: right;
+    width: 5%;
+}
+
+#sec4_adaptation a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxInformation a[href^="./html/addContent.html"] {
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+}
+
+.boxInformation a[href^="./html/addContent.html"]:hover {
+    border-left: 0.2rem solid rgb(0, 51, 124);
+    background-color: rgb(0, 51, 124, 0.3);
+    font-weight: bold;
+}
+
+.grid p { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+#introduction {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#introduction p {
+    text-align: justify;
+    font-size: 150%;
+}
+
+.backgroundDarker {
+    background-color: rgba(0, 51, 124, 0.3);
+}
+
+.grid {
+    display: grid;
+    /* grid-template: 1fr/ 1fr 1fr; */
+    /* grid-template-columns: repeat(2, 45%); */
+}
+
+.backgroundDarker .boxImage, .boxInformation {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.backgroundDarker .boxInformation, .boxImage {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.boxImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxImage img {
+    border-radius: 5%;
+    width: 80%;
+}
+
+.boxInformation {
+    text-align: justify;
+    padding: 2em;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.sectionListAndTable {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    border-top: double rgb(3, 201, 136, 0.5);
+    border-bottom: double rgb(3, 201, 136, 0.5);
+    background-color: rgba(0, 51, 124);
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}

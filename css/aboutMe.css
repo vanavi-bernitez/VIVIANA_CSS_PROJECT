@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(rgb(234, 246, 246), rgb(249, 249, 249), rgba(0, 51, 124,0.3));
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #13005A;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    width: 15em;
+    padding: 1em;
+    text-align: center;
+}
+
+header li:hover {
+    border-bottom: 0.3em solid aliceblue;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Gloock', sans-serif;
+    text-align: center;
+    color: #13005A;
+    /* border-style: solid; */
+}
+
+h1 em {
+    color: rgb(3, 201, 136);
+
+}
+
+.textImageBlock {
+    display: block;
+    /* border-style: solid; */
+    margin: 2% 10%;
+}
+
+.aboutMeBlock  {
+    padding: 1em;
+    text-align: justify;
+}
+
+#imgSelfie {
+    /* display: block; */
+    float: right;
+    border-radius: 50%;
+    margin: 2%;
+    width: 30%;
+}
+
+.contactIcons{
+    text-align: center;
+}
+
+.contactIcons ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.contactIcons li {
+    margin-bottom: 2%;
+    /* margin: 2% 5%; */
+}
+  
+.contactIcons img {
+    width: 7%;
+}
+
+footer{
+    border-top: double rgb(3, 201, 136, 0.5);
+    border-bottom: double rgb(3, 201, 136, 0.5);
+    background-color: rgba(0, 51, 124);
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
