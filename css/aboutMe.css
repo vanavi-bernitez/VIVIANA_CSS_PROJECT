@@ -35,7 +35,6 @@ h1 {
     font-family: 'Gloock', sans-serif;
     text-align: center;
     color: #13005A;
-    /* border-style: solid; */
 }
 
 h1 em {
@@ -45,7 +44,6 @@ h1 em {
 
 .textImageBlock {
     display: block;
-    /* border-style: solid; */
     margin: 2% 10%;
 }
 
@@ -55,32 +53,24 @@ h1 em {
 }
 
 #imgSelfie {
-    /* display: block; */
     float: right;
     border-radius: 50%;
     margin: 2%;
     width: 30%;
 }
 
-.contactIcons{
-    text-align: center;
-}
-
-.contactIcons ul {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    list-style: none;
-    padding: 0;
-}
-
-.contactIcons li {
+.contactIcons {   
+    display: inline-block;
+    text-align: center;   
     margin-bottom: 2%;
-    /* margin: 2% 5%; */
 }
-  
-.contactIcons img {
-    width: 7%;
+
+a img {
+    width: 10%;  
+}
+
+a img:hover {
+    opacity: 70%;
 }
 
 footer{
